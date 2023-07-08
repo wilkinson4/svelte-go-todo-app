@@ -2,7 +2,10 @@ module ww/todo-api
 
 go 1.20
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
